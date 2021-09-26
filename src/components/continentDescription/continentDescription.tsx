@@ -1,6 +1,6 @@
 import { Flex, Box, Text, Icon, Tooltip } from '@chakra-ui/react'
 import { FiAlertCircle } from 'react-icons/fi'
-import { ContinentProps } from '../pages/posts/[slug]'
+import { ContinentProps } from '../../pages/posts/[slug]'
 
 export function ContinentDescription({ continent }: ContinentProps) {
   return (

@@ -1,5 +1,5 @@
 import { Flex, Image, Text } from '@chakra-ui/react'
-import { ContinentProps } from '../pages/posts/[slug]'
+import { ContinentProps } from '../../pages/posts/[slug]'
 
 export function ContinentBanner({ continent }: ContinentProps) {
   return (

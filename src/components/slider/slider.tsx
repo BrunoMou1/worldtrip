@@ -42,7 +42,7 @@ export function Slider({ results }: Sections) {
         </SwiperSlide>
       ))
       }
-
+      <p>oi</p>
 
     </Swiper >
   )

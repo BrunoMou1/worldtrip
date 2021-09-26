@@ -6,10 +6,10 @@ import { RichText } from 'prismic-dom'
 
 import { Flex } from '@chakra-ui/react'
 
-import { Banner } from "../components/banner";
-import { Divisor } from '../components/divisor';
-import { Slider } from '../components/slider';
-import { TravelTypes } from "../components/travelTypes";
+import { Banner } from "../components/banner/banner";
+import { Divisor } from '../components/divisor/divisor';
+import { Slider } from '../components/slider/slider';
+import { TravelTypes } from "../components/travelTypes/travelTypes";
 
 interface SectionProps {
   slug: string
@@ -51,8 +51,6 @@ export const getStaticProps: GetStaticProps = async () => {
       banner: item.data.bannerslide.url
     }
   })
-
-  sections.results.map(item => console.log(item.data.bannerslide))
 
   return {
     props: {

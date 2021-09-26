@@ -3,9 +3,9 @@ import Prismic from '@prismicio/client'
 import { RichText } from "prismic-dom"
 import { getPrismicClient } from "../../services/prismic"
 
-import { ContinentBanner } from '../../components/continentBanner'
-import { ContinentDescription } from '../../components/continentDescription'
-import { Cities100 } from '../../components/cities100'
+import { ContinentBanner } from '../../components/continentBanner/continentBanner'
+import { ContinentDescription } from '../../components/continentDescription/continentDescription'
+import { Cities100 } from '../../components/cities100/cities100'
 
 export interface ContinentProps {
   continent: {

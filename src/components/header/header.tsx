@@ -16,6 +16,7 @@ export function Header() {
           color='gray.700'
           h='30px'
           w='30px'
+          title='iconBack'
           _hover={{ cursor: 'pointer' }}
           onClick={() => router.push('/')}
         />

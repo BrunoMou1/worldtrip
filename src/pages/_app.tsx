@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from '../styles/theme'
-import { Header } from '../components/header'
+import { Header } from '../components/header/header'
 
 import '../styles/slider.scss'
 
